@@ -39,3 +39,19 @@ if (TimerHasExpired(&myTimer)) {
 }
 }
 
+API
+void initTPM2(void);
+
+Initialize the internal timer counter (optional for Arduino).
+
+void setTimerEvent(tTimerTime *event, unsigned long milliseconds);
+
+Start a timer that expires after the given number of milliseconds.
+
+bool TimerHasExpired(tTimerTime *event);
+
+Check if the timer has expired.
+
+unsigned long getMillis(void);
+
+Return the number of milliseconds since the program started.

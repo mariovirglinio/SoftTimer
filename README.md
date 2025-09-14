@@ -1,6 +1,6 @@
-# SoftTimer
+# TimerEvents
 
-**SoftTimer** is a lightweight Arduino library that provides simple software timers based on `millis()`.  
+**TimerEvents** is a lightweight Arduino library that provides simple software timers based on `millis()`.  
 It allows you to create periodic or one-shot events without blocking your code with `delay()`.
 
 ---
@@ -16,7 +16,7 @@ It allows you to create periodic or one-shot events without blocking your code w
 ## Installation
 1. Download or clone this repository into your Arduino `libraries` folder:
 2. Restart the Arduino IDE.
-3. Open **File > Examples > SoftTimer** to see usage examples.
+3. Open **File > Examples > TimerEvents** to see usage examples.
 
 ---
 

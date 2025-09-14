@@ -39,7 +39,9 @@ if (TimerHasExpired(&myTimer)) {
 }
 }
 
-API
+---
+
+## API
 void initTPM2(void);
 
 Initialize the internal timer counter (optional for Arduino).

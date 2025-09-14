@@ -23,7 +23,7 @@ It allows you to create periodic or one-shot events without blocking your code w
 ## Example
 
 ```cpp
-#include <SoftTimer.h>
+#include <TimerEvents.h>
 
 tTimerTime myTimer;
 

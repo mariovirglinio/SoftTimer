@@ -38,6 +38,7 @@ if (TimerHasExpired(&myTimer)) {
  setTimerEvent(&myTimer, 1000); // reset timer
 }
 }
+```cpp
 
 ---
 

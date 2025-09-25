@@ -1,4 +1,4 @@
-#include <SoftTimer.h>
+#include <TimerEvents.h>
 
 tTimerTime ledEvent;
 
